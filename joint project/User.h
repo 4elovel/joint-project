@@ -2,8 +2,10 @@
 
 #include <iostream>
 #include <string>
+#include "Card.h"
+#include "Pocket.h"
 
-class User
+class User : public Card, public Pocket
 {
 public:
 
